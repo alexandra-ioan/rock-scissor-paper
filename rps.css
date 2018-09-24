@@ -1,0 +1,63 @@
+body{
+	background:#b399ff;
+	font-family: arial,sans-serif;
+}
+h2 {
+	text-align: center;
+	margin-top: 5%;
+	font-size: 50px;
+	margin-bottom: 5%;
+}
+button{
+	margin-right: 10px;
+	color: white;
+	opacity: 0.5;
+}
+
+button:hover{
+	opacity: 2;
+}
+#rock{
+	margin-left: 100px;
+	height: 290px;
+	width: 290px;
+	background-image: url("C:/my stuff/New folder/rps/Rock-Paper-Scissors-Rock.png");
+	background-color: transparent;
+	border-style: none;
+ }
+
+#paper{
+	height: 290px;
+	width: 300px;
+	background-image: url("C:/my stuff/New folder/rps/eqdtyetnqdecaakbttle.png");
+	background-color: transparent;
+	border-style: none;
+
+ }
+
+#scissors{
+	height: 297px;
+	width: 300px;
+	background-image: url("C:/my stuff/New folder/rps/Rock-Paper-Scissors-Scissors.png");
+	background-color: transparent;
+	border-style: none;
+ }
+ #rock, #paper, #scissors{
+ 	margin-right: 100px;
+ }
+div{
+	text-align: center;
+}
+#result{
+	margin-top: 3%;
+	font-size: 30px;
+}
+
+#score{
+	font-size: 25px;
+}
+
+#winner{
+	margin-top: 15px;
+	font-size: 35px;
+}
